@@ -131,3 +131,6 @@ dmypy.json
 # log
 log/*
 !log/.gitkeep
+
+# OAuth
+client_secret.json

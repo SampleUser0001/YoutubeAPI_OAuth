@@ -1,17 +1,16 @@
-# Template Python on Docker
+# YoutubeAPI_OAuth
+
+## 準備
+
+1. 下記を参考に、OAuth2.0認証用のjsonファイルを取得しておく。  
+    - [Python で OAuth 2.0 認証を通して YouTube Data API を叩いてみた:DevelopersIO](https://dev.classmethod.jp/articles/oauth2-youtube-data-api/)
+2. jsonファイルが使用できるように認証しておく
+    - 今ここでコケてる
 
 ## 使い方
 
-1. Dockerfileのimageを変更する。
-2. 必要に応じてDockerfileにpipを書く。
-3. 必要に応じてdocker-compose.ymlを修正する。
-4. 下記実行。
-    ``` sh
-    docker-compose build
-    docker-compose up
-    ```
+
 
 ## 参考
 
-- [Qiita:Docker を使う（python のイメージで色々確認してみる）](https://qiita.com/landwarrior/items/fd918da9ebae20486b81)
-- [Future Tech Blog:仕事でPythonコンテナをデプロイする人向けのDockerfile (1): オールマイティ編](https://future-architect.github.io/articles/20200513/)
+- [Python で OAuth 2.0 認証を通して YouTube Data API を叩いてみた:DevelopersIO](https://dev.classmethod.jp/articles/oauth2-youtube-data-api/)
