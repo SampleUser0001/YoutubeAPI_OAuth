@@ -133,4 +133,5 @@ log/*
 !log/.gitkeep
 
 # OAuth
-client_secret.json
+/app/config/*
+!/config/log_config.json

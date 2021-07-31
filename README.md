@@ -9,7 +9,9 @@
 
 ## 使い方
 
-
+``` sh
+docker-compose up
+```
 
 ## 参考
 
